@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static "css/style.css"%}">
+</head>
+<body>
+<h1>Главная</h1>
+<img src="{%static "images/1.jpg"%}">
+<h2>Имя</h2>
+{% block 'page' %}
+{% endblock %}
+</body>
+</html>
